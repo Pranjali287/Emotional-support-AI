@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMMo. - Emotional Support Companion</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🤍 EMMo. - Emotional Support Companion</h1>
+        <p>Your Safe Space for Sharing & Healing</p>
+    </header>
+
+    <main>
+        <section id="share-section">
+            <h2>✨ Share Your Feelings</h2>
+            <textarea id="userInput" placeholder="Express yourself anonymously..."></textarea>
+            <button onclick="shareExperience()">
+                <i class="fas fa-paper-plane"></i> Share Now
+            </button>
+        </section>
+
+        <section id="ai-response">
+            <h2>🤖 AI Companion</h2>
+            <p id="aiMessage">Your AI friend is here to listen and support you.</p>
+        </section>
+
+        <section id="community">
+            <h2>🌍 Community Voices</h2>
+            <ul id="experiencesList"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>💙 You are not alone. EMMo. is here for you.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
